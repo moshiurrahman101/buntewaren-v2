@@ -73,3 +73,11 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+/* custom design */
+#hero{
+  background: url('assets/image/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+}
