@@ -6,7 +6,7 @@ function FeaturedProduct() {
   return (
     <div className="mx-5 py-5">
         <div className='flex justify-center mt-10'>
-        <h2 className='text-2xl font-bold'><span className='text-green-600'>Featured</span> Products</h2>
+        <h2 className='text-2xl font-bold uppercase'><span className='text-green-600'>Featured</span> Products</h2>
         </div>
         <div className='flex justify-center mt-5 gap-5 flex-wrap'>
             <SingleProductCard name={"Wasserfeste 100% Vegan Ledisbag"} image={p1} category={'Ladies Bag'}/>

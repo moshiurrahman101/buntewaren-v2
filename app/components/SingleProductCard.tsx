@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import {
   Card,
-  CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
@@ -10,9 +9,9 @@ import {
 import Image from "next/image";
 
 interface ProductProps {
-  name: String;
-  image: String;
-  category: String;
+  name: string;
+  image: string;
+  category: string;
 }
 export default function SingleProductCard({
   name,
