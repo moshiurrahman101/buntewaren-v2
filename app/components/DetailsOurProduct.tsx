@@ -12,8 +12,8 @@ function DetailsOurProduct() {
             Details of Our <span className="text-green-600">Products</span>
           </h2>
         </div>
-        <div className="flex lg:flex-row flex-col-reverse justify-between items-center gap-5 mt-10 mx-5">
-          <div className="lg:w-[50%] text-lg flex flex-col gap-3 text-[24px] leading-10">
+        <div className="flex lg:flex-row flex-col-reverse justify-between items-center gap-5 mt-10 mx-5 animate-fade-left animate-once animate-ease-linear">
+          <div className="lg:w-[50%] text-lg flex flex-col gap-3 text-[24px] leading-10 animate-fade-right animate-once animate-ease-linear">
             <h3 className="font-bold text-2xl">
               Our range of products includes
             </h3>
@@ -34,14 +34,14 @@ function DetailsOurProduct() {
             </p>
           </div>
           <div className="lg:w-[50%]">
-            <Image src={img1} alt="worker pic" className="rounded-md"/>
+            <Image src={img1} alt="worker pic" className="rounded-md animate-fade animate-once animate-duration-[2000ms] animate-ease-in-out"/>
           </div>
         </div>
         <div className="flex lg:flex-row flex-col justify-between items-center gap-5 mt-16 mx-5">
           <div className="lg:w-[50%]">
-            <Image src={img2} alt="worker pic" className="rounded-md"/>
+            <Image src={img2} alt="worker pic" className="rounded-md animate-fade animate-once animate-duration-[2000ms] animate-ease-in-out"/>
           </div>
-          <div className="lg:w-[50%] text-lg flex flex-col gap-3 text-[24px] leading-10">
+          <div className="lg:w-[50%] text-lg flex flex-col gap-3 text-[24px] leading-10 animate-fade animate-once animate-duration-[2000ms] animate-ease-in-out">
             <h3 className="font-bold text-2xl">
             Our range of products includes
             </h3>

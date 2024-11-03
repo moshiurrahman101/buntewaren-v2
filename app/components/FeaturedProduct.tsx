@@ -4,8 +4,8 @@ import p1 from '@/app/assets/image/product/1.png'
 
 function FeaturedProduct() {
   return (
-    <div className="mx-5 py-5">
-        <div className='flex justify-center mt-10'>
+    <div className="mx-5 py-5 animate-fade-up animate-once animate-ease-linear">
+        <div className='flex justify-center mt-10 '>
         <h2 className='text-2xl font-bold uppercase'><span className='text-green-600'>Featured</span> Products</h2>
         </div>
         <div className='flex justify-center mt-5 gap-5 flex-wrap'>

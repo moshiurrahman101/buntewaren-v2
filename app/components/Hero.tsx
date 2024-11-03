@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 function Hero() {
   return (
-    <div className="h-[70vh] flex justify-center items-center" id="hero">
+    <div className="h-[70vh] flex justify-center items-center animate-fade-up animate-once animate-ease-linear" id="hero">
       <div className="w-[700px] text-center">
         <h1 className="lg:text-3xl md:text-2xl text-2xl font-bold">
           High-Quality <span className="text-green-600">Jute Bags</span> in
