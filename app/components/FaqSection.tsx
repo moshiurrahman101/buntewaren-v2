@@ -26,6 +26,18 @@ function FaqSection() {
               Yes, you can! We offer the convenience of purchasing our products directly from Switzerland. You can order online through our website, ensuring a smooth and hassle-free shopping experience. Additionally, if you prefer a personal touch, feel free to visit our office. Please contact us to arrange a visit or for any specific needs you may have.
               </AccordionContent>
             </AccordionItem>
+            <AccordionItem value="item-3">
+              <AccordionTrigger>Do you use original Bangladeshi jute in your products?</AccordionTrigger>
+              <AccordionContent>
+              Yes, you can! We offer the convenience of purchasing our products directly from Switzerland. You can order online through our website, ensuring a smooth and hassle-free shopping experience. Additionally, if you prefer a personal touch, feel free to visit our office. Please contact us to arrange a visit or for any specific needs you may have.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4">
+              <AccordionTrigger>What makes jute a better choice for the environment?</AccordionTrigger>
+              <AccordionContent>
+              Yes, you can! We offer the convenience of purchasing our products directly from Switzerland. You can order online through our website, ensuring a smooth and hassle-free shopping experience. Additionally, if you prefer a personal touch, feel free to visit our office. Please contact us to arrange a visit or for any specific needs you may have.
+              </AccordionContent>
+            </AccordionItem>
           </Accordion>
         </div>
       </div>
