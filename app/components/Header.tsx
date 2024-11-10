@@ -46,7 +46,7 @@ function Header() {
         </div>
       </div>
       {menuOn ? (
-        <div className={`w-full h-screen bg-black text-white absolute transition-all ease-in-out duration-2000`}>
+        <div className={`w-full h-screen bg-black text-white absolute transition-all ease-in-out duration-2000 z-10`}>
           <ul className="flex flex-col gap-6 items-center text-[18px] pt-7">
             <li className="hover:text-green-600">
               <Link href={"#"}>All Products</Link>
