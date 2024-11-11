@@ -1,7 +1,11 @@
+import Hero from "@/app/components/contact/Hero";
+import OthersContact from "@/app/components/contact/OthersContact";
+
 export default function Contact() {
   return (
-    <div>
-      <h2 className="text-2xl text-center">Contact page</h2>
-    </div>
+    <>
+      <Hero />
+      <OthersContact />
+    </>
   );
 }

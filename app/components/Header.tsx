@@ -5,6 +5,7 @@ import logo from "@/app/assets/image/logo.png";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { AlignRight, X } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 function Header() {
   const [menuOn, setMenuOn] = useState(false);
@@ -16,6 +17,10 @@ function Header() {
       setMenuOn(false);
     }
   };
+  const router = useRouter();
+  const contactPageRedirect = () => {
+    router.push('/contact')
+  }
 
   return (
     <>
@@ -26,7 +31,10 @@ function Header() {
           </Link>
         </div>
         <div className="menu lg:block hidden">
-          <ul className="flex gap-6 items-center text-[18px]">
+          <ul className="flex gap-6 items-center text-[16px] font-medium">
+          <li className="hover:text-green-600">
+              <Link href={"/about"}>About us</Link>
+            </li>
             <li className="hover:text-green-600">
               <Link href={"#"}>All Products</Link>
             </li>
@@ -37,7 +45,7 @@ function Header() {
               <Link href={"#"}>Ladies Fashion Bag</Link>
             </li>
             <li>
-              <Button>Contact</Button>
+              <Button onClick={contactPageRedirect}>Contact</Button>
             </li>
           </ul>
         </div>
@@ -47,7 +55,10 @@ function Header() {
       </div>
       {menuOn ? (
         <div className={`w-full h-screen bg-black text-white absolute transition-all ease-in-out duration-2000 z-10`}>
-          <ul className="flex flex-col gap-6 items-center text-[18px] pt-7">
+          <ul className="flex flex-col gap-6 items-center text-[16px] pt-7">
+            <li className="hover:text-green-600">
+              <Link href={"/about"}>About us</Link>
+            </li>
             <li className="hover:text-green-600">
               <Link href={"#"}>All Products</Link>
             </li>
@@ -58,7 +69,7 @@ function Header() {
               <Link href={"#"}>Ladies Fashion Bag</Link>
             </li>
             <li>
-              <Button>Contact</Button>
+              <Button onClick={contactPageRedirect}>Contact</Button>
             </li>
           </ul>
         </div>

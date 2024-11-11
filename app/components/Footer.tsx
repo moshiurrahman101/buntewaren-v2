@@ -29,7 +29,7 @@ function Footer() {
             <menu className="flex flex-col gap-1 text-sm mt-3">
               <Link className="hover:text-green-600 w-fit" href={"/about"}>About us</Link>
               <Link className="hover:text-green-600 w-fit" href={"/contact"}>Contact us</Link>
-              <Link className="hover:text-green-600 w-fit" href={"/faq"}>FAQ</Link>
+              <Link className="hover:text-green-600 w-fit" href={"/#faq"}>FAQ</Link>
             </menu>
           </div>
           <div className="text-white">

@@ -7,7 +7,7 @@ import {
 
 function FaqSection() {
   return (
-    <div className="w-full lg:py-16 py-2">
+    <div id="faq" className="w-full lg:py-16 py-2">
       <div className="py-5 lg:mx-24 flex justify-center">
         <div className="lg:w-[700px] w-full">
           <h2 className="text-center text-2xl font-bold uppercase my-5">
